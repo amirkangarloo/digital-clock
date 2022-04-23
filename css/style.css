@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    padding: 15% 0;
+    background: lightblue;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clock {
+    font-size: 90px;
+    font-weight: bold;
+    margin: 0 0 25px 0;
+}
+
+.calender {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 50% 0;
+    }
+}
